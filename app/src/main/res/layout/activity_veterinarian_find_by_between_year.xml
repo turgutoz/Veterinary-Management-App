@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <import type="org.csystem.android.app.veterinarian.viewmodel.VeterinarianFindByBetweenYearActivityViewModel"/>
+        <import type="org.csystem.android.app.veterinarian.viewmodel.converter.IntStringConverter"/>
+        <variable name="viewModel" type="VeterinarianFindByBetweenYearActivityViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".VeterinarianFindByBetweenYearActivity">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/edittext_begin_year_hint"
+            android:text="@={IntStringConverter.INSTANCE.toStr(viewModel.begin)}"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/edittext_end_year_hint"
+            android:text="@={IntStringConverter.INSTANCE.toStr(viewModel.end)}"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> viewModel.handleFindButton()}"
+            android:text="@string/button_search_text" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> viewModel.handleExitButton()}"
+            android:text="@string/button_exit_text" />
+
+        <ListView
+            android:id="@+id/veterinarianFindByBetweenYearActivityVeterinarians"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adapter="@{viewModel.adapter}"/>
+    </LinearLayout>
+</layout>

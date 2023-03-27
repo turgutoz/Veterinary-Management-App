@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">VeterinarianApp</string>
+    <string name="button_save_text">Save</string>
+    <string name="button_get_text">Get</string>
+    <string name="button_count_text">Count</string>
+    <string name="button_find_by_last_name_text">Find By Last Name</string>
+    <string name="button_find_by_month_year_text">Find By Month and Year</string>
+    <string name="button_find_by_between_year_text">Find By Between Year</string>
+    <string name="button_search_text">Search</string>
+    <string name="button_exit_text">Exit</string>
+    <string name="textview_diploma_no_text">Diploma Number</string>
+    <string name="textview_citizen_id_text">Citizen ID</string>
+    <string name="textview_first_name_text">First Name</string>
+    <string name="textview_middle_name_text">Middle Name</string>
+    <string name="textview_last_name_text">Last Name</string>
+    <string name="textview_register_date_text">Register Date</string>
+    <string name="textview_full_name_text">Full Name</string>
+    <string name="edittext_diploma_no_hint">Input Diploma Number</string>
+    <string name="edittext_citizen_id_hint">Input Citizen Id</string>
+    <string name="edittext_first_name_hint">Input First Name</string>
+    <string name="edittext_middle_name_hint">Input Middle Name (Optional)</string>
+    <string name="edittext_last_name_hint">Input Last Name</string>
+    <string name="edittext_birth_date_hint">Input Birth Date (DD/MM/YYYY)</string>
+    <string name="edittext_begin_year_hint">Input Begin Year</string>
+    <string name="edittext_end_year_hint">Input End Year</string>
+    <string name="edittext_year_hint">Input Year</string>
+    <string name="edittext_month_hint">Input Month</string>
+    <string name="problem_message">Problem occurs!…</string>
+    <string name="problem_try_again_message">Problem occurs. Try again later!…</string>
+    <string name="no_veterinarian_message">No Veterinarian</string>
+    <string name="message_title_find_by_last_name">Information</string>
+    <string name="message_text_find_by_last_name">Which of the following do you want to do?</string>
+    <string name="message_text_find_by_last_name_use_existing_info_button">Use existing info</string>
+    <string name="message_text_find_by_last_name_connect_service_button">Connect service again</string>
+    <string name="message_text_find_by_last_name_detail_page_button">Go to detailed info page</string>
+    <string name="message_text_find_by_last_name_cancel_button">Cancel</string>
+
+</resources>
