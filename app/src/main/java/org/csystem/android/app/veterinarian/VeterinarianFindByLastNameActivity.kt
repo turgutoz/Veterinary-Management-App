@@ -48,13 +48,12 @@ class VeterinarianFindByLastNameActivity : AppCompatActivity() {
                 vi.veterinarians.forEach { mBinding.viewModel!!.adapter.add(it) }
 
                 AlertDialog.Builder(this)
-                    .setMessage("Do you want to save local db?")
-                    .setPositiveButton("Yes, please!") {_, _ -> saveSqlDatabase(vi)}
-                    .setNegativeButton("No, thanks!") {_, _ -> ;}
-                    .setNeutralButton(R.string.message_text_find_by_last_name_cancel_button) {_, _ -> ;}
+                    .setMessage(R.string.message_text_save_sqlite_message_text)
+                    .setPositiveButton(R.string.message_text_save_sqlite_yes_button) {_, _ -> saveSqlDatabase(vi)}
+                    .setNegativeButton(R.string.message_text_save_sqlite_no_button) {_, _ -> ;}
+                    .setNeutralButton(R.string.message_text_save_sqlite_cancel_button) {_, _ -> ;}
                     .create()
                     .show()
-                //saveSqlDatabase(vi) //Bu metot doğru çalışmıyor
             }
             else
                 Toast.makeText(this, R.string.no_veterinarian_message, Toast.LENGTH_LONG).show()

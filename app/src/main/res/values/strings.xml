@@ -34,5 +34,9 @@
     <string name="message_text_find_by_last_name_connect_service_button">Connect service again</string>
     <string name="message_text_find_by_last_name_detail_page_button">Go to detailed info page</string>
     <string name="message_text_find_by_last_name_cancel_button">Cancel</string>
+    <string name="message_text_save_sqlite_message_text">Do you want to save to local db?</string>
+    <string name="message_text_save_sqlite_yes_button">Yes, please!</string>
+    <string name="message_text_save_sqlite_no_button">No, thanks!</string>
+    <string name="message_text_save_sqlite_cancel_button">Cancel</string>
 
 </resources>
