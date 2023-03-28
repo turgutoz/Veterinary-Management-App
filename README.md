@@ -12,7 +12,7 @@ GENERAL INFO:
 
 * This application was developed using the knowledge and libraries obtained from the 'Android Applications with Kotlin & Java' course, which was offered by the 'C and Systems Programmers Association' and taught by Oguz Karan.
 
-* The application uses a Veterinary Service developed with Java. If there is a problem in accessing this service or to see the codes related to the service, please contact us.
+* The application uses a Veterinary Service developed with Java. If there is a problem in accessing this service or to see the codes related to the service, please contact me.
 
 FEATURES:
 
