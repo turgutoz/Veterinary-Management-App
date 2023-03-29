@@ -18,7 +18,6 @@ class VeterinarianDetailsActivity : AppCompatActivity() {
             mBinding.editTextMiddleNameNullable.visibility = View.GONE
             mBinding.textViewMiddleNameNullable.visibility = View.GONE
         }
-
          */
     }
 

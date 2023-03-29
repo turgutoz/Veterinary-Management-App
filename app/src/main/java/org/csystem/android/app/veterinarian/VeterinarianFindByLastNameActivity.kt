@@ -7,22 +7,18 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.karandev.util.retrofit.RetrofitUtil
-import org.csystem.android.app.veterinarian.databinding.ActivityVeterinarinarianFindByLastNameBinding
-import org.csystem.android.app.veterinarian.viewmodel.VeterinarianFindByLastNameActivityViewModel
-import retrofit2.Call
-import retrofit2.Response
-
 import com.karandev.util.retrofit.putQueue
 import com.turgutcanozdemir.android.lib.veterinarian.data.servicelib.VeterinarianAppService
-import com.turgutcanozdemir.android.lib.veterinarian.veterinarianlib.api.GET_SERVICE_BASE_URL
 import com.turgutcanozdemir.android.lib.veterinarian.veterinarianlib.api.IVeterinarianService
 import com.turgutcanozdemir.android.lib.veterinarian.veterinarianlib.api.VETERINARIAN
 import com.turgutcanozdemir.android.lib.veterinarian.veterinarianlib.data.entity.VeterinarianInfo
 import com.turgutcanozdemir.android.lib.veterinarian.veterinarianlib.data.entity.VeterinariansInfo
-
 import dagger.hilt.android.AndroidEntryPoint
 import org.csystem.android.app.veterinarian.configuration.inject.annotation.service.GetServiceAuthInterceptor
+import org.csystem.android.app.veterinarian.databinding.ActivityVeterinarinarianFindByLastNameBinding
+import org.csystem.android.app.veterinarian.viewmodel.VeterinarianFindByLastNameActivityViewModel
+import retrofit2.Call
+import retrofit2.Response
 import javax.inject.Inject
 
 @AndroidEntryPoint

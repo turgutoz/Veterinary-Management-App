@@ -6,7 +6,7 @@ import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
 class HiltDIApplication: Application() {
-    companion object { //DI kullanılmazsa Application Context ve Application sınıfı için anlamlı için anlamlı
+    companion object {
         private lateinit var mSelf: HiltDIApplication
 
         fun getApplication() = mSelf

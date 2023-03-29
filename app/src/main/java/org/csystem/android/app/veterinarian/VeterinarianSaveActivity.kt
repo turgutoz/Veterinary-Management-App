@@ -1,9 +1,5 @@
 package org.csystem.android.app.veterinarian
 
-//import com.turgutcanozdemir.android.lib.veterinarian.data.servicelib.VeterinarianAppService
-//import com.turgutcanozdemir.android.lib.veterinarian.veterinarianlib.data.entity.Veterinarian
-//import com.turgutcanozdemir.android.lib.veterinarian.veterinarianlib.data.mapper.VeterinarianMapper
-//import com.turgutcanozdemir.android.library.repo.veterinarian.dal.VeterinarianAppHelper
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
